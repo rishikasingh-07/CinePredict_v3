@@ -46,7 +46,7 @@ def _call_gemini(api_key: str, prompt: str) -> dict:
     import google.generativeai as genai
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel(
-        "gemini-1.5-flash",
+        "gemini-3-flash-preview",
         generation_config={"temperature": 0.7, "max_output_tokens": 1024},
     )
     text = model.generate_content(prompt).text.strip()

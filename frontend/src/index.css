@@ -18,7 +18,7 @@ body {
 /* ── Scrollbar ────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: #0f0f0f; }
-::-webkit-scrollbar-thumb { background: #E50914; border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: #aa240d; border-radius: 3px; }
 
 /* ── Glass panels ─────────────────────────────────────── */
 .glass {
@@ -31,17 +31,17 @@ body {
   background: rgba(28, 28, 28, 0.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(229, 9, 20, 0.25);
+  border: 1px solid rgba(170, 36, 13, 0.25);
 }
 .glass-red {
-  background: rgba(229, 9, 20, 0.06);
-  border: 1px solid rgba(229, 9, 20, 0.2);
+  background: rgba(170, 36, 13, 0.06);
+  border: 1px solid rgba(170, 36, 13, 0.2);
 }
 
 /* ── Cinema text effects ──────────────────────────────── */
 .text-red-glow {
-  color: #E50914;
-  text-shadow: 0 0 20px rgba(229,9,20,0.55), 0 0 60px rgba(229,9,20,0.2);
+  color: #aa240d;
+  text-shadow: 0 0 20px rgba(170,36,13,0.55), 0 0 60px rgba(170,36,13,0.2);
 }
 .text-gold {
   color: #f5c518;
@@ -54,7 +54,7 @@ body {
   background-clip: text;
 }
 .red-gradient-text {
-  background: linear-gradient(135deg, #E50914 0%, #ff4d57 50%, #b81d24 100%);
+  background: linear-gradient(135deg, #aa240d 0%, #ff4d57 50%, #b81d24 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -62,8 +62,8 @@ body {
 
 /* ── Neon / glow borders ──────────────────────────────── */
 .border-red-glow {
-  border-color: rgba(229,9,20,0.45);
-  box-shadow: 0 0 14px rgba(229,9,20,0.2), inset 0 0 14px rgba(229,9,20,0.04);
+  border-color: rgba(170,36,13,0.45);
+  box-shadow: 0 0 14px rgba(170,36,13,0.2), inset 0 0 14px rgba(170,36,13,0.04);
 }
 .border-gold-glow {
   border-color: rgba(245,197,24,0.4);
@@ -81,16 +81,16 @@ body {
 }
 .neon-input:focus {
   outline: none;
-  border-color: rgba(229,9,20,0.55);
-  box-shadow: 0 0 0 3px rgba(229,9,20,0.08), 0 0 20px rgba(229,9,20,0.15);
-  background: rgba(229,9,20,0.03);
+  border-color: rgba(170,36,13,0.55);
+  box-shadow: 0 0 0 3px rgba(170,36,13,0.08), 0 0 20px rgba(170,36,13,0.15);
+  background: rgba(170,36,13,0.03);
 }
 .neon-input::placeholder { color: rgba(255,255,255,0.2); }
 .neon-input option { background: #141414; color: #e5e5e5; }
 
 /* ── Buttons ──────────────────────────────────────────── */
 .btn-neon {
-  background: #E50914;
+  background: #aa240d;
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
@@ -111,7 +111,7 @@ body {
   transition: opacity 0.25s ease;
 }
 .btn-neon:hover::before { opacity: 1; }
-.btn-neon:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(229,9,20,0.5); }
+.btn-neon:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(170,36,13,0.5); }
 .btn-neon:active { transform: translateY(0); }
 .btn-neon:disabled {
   background: rgba(255,255,255,0.06);
@@ -124,8 +124,8 @@ body {
 
 .btn-outline {
   background: transparent;
-  border: 1px solid rgba(229,9,20,0.5);
-  color: #E50914;
+  border: 1px solid rgba(170,36,13,0.5);
+  color: #aa240d;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   letter-spacing: 0.08em;
@@ -134,9 +134,9 @@ body {
   transition: all 0.25s ease;
 }
 .btn-outline:hover {
-  background: rgba(229,9,20,0.1);
-  border-color: rgba(229,9,20,0.8);
-  box-shadow: 0 0 20px rgba(229,9,20,0.3);
+  background: rgba(170,36,13,0.1);
+  border-color: rgba(170,36,13,0.8);
+  box-shadow: 0 0 20px rgba(170,36,13,0.3);
 }
 .btn-outline:disabled { opacity: 0.35; cursor: not-allowed; }
 
@@ -156,15 +156,15 @@ body {
   letter-spacing: 0.02em;
 }
 .genre-pill:hover {
-  border-color: rgba(229,9,20,0.5);
-  color: #E50914;
-  background: rgba(229,9,20,0.06);
+  border-color: rgba(170,36,13,0.5);
+  color: #aa240d;
+  background: rgba(170,36,13,0.06);
 }
 .genre-pill.selected {
-  border-color: #E50914;
-  background: rgba(229,9,20,0.15);
+  border-color: #aa240d;
+  background: rgba(170,36,13,0.15);
   color: #ff4d57;
-  box-shadow: 0 0 10px rgba(229,9,20,0.25);
+  box-shadow: 0 0 10px rgba(170,36,13,0.25);
 }
 
 /* ── Animations ───────────────────────────────────────── */
@@ -183,7 +183,7 @@ body {
 
 .shimmer-text {
   background: linear-gradient(90deg,
-    rgba(229,9,20,0.4) 0%, rgba(255,100,110,0.9) 50%, rgba(229,9,20,0.4) 100%);
+    rgba(170,36,13,0.4) 0%, rgba(255,100,110,0.9) 50%, rgba(170,36,13,0.4) 100%);
   background-size: 200% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -204,7 +204,7 @@ body {
 
 /* ── Cinema reel decoration ───────────────────────────── */
 .reel-border {
-  border-top: 3px solid #E50914;
+  border-top: 3px solid #aa240d;
   position: relative;
 }
 .reel-border::before {
@@ -214,7 +214,7 @@ body {
   height: 3px;
   background: repeating-linear-gradient(
     90deg,
-    #E50914 0px, #E50914 20px,
+    #aa240d 0px, #aa240d 20px,
     transparent 20px, transparent 30px
   );
 }
@@ -222,7 +222,7 @@ body {
 /* ── Divider ─────────────────────────────────────────── */
 .cinema-divider {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(229,9,20,0.4), transparent);
+  background: linear-gradient(90deg, transparent, rgba(170,36,13,0.4), transparent);
 }
 
 /* ── Film grain overlay ───────────────────────────────── */
